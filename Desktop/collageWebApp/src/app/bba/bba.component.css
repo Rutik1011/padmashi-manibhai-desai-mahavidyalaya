@@ -1,0 +1,256 @@
+
+
+/* table start */
+/* Unique styling for BBA course table */
+.bba-course-structure {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f9fcff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+.bba-course-structure .bba-title {
+  text-align: center;
+  font-weight: bold;
+  background: linear-gradient(to right, #66ccff, #0099ff);
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  letter-spacing: 0.5px;
+}
+
+.bba-course-structure .bba-title span {
+  color: #ffff66;
+}
+
+.bba-course-structure .bba-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  margin: 15px 0 25px;
+  color: #007acc;
+}
+
+/* Table styling */
+.bba-course-structure .bba-table-wrapper {
+  overflow-x: auto;
+}
+
+.bba-course-structure .bba-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Header Row */
+.bba-course-structure .bba-table th {
+  background-color: #e0f3ff;
+  color: #003366;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #66b3ff;
+}
+
+.bba-course-structure .bba-table th.sem-header {
+  background-color: #66ccff;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* Table Body */
+.bba-course-structure .bba-table td {
+  padding: 10px;
+  border-bottom: 1px solid #cce7ff;
+  color: #222;
+}
+
+/* Alternating Row Colors */
+.bba-course-structure .bba-table tr:nth-child(even) {
+  background-color: #f2f9ff;
+}
+
+/* Hover Effect */
+.bba-course-structure .bba-table tr:hover {
+  background-color: #d9f0ff;
+  transition: 0.3s;
+}
+
+/* table 2 */
+.bba-course-structure {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f9fcff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+.bba-course-structure .bba-title {
+  text-align: center;
+  font-weight: bold;
+  background: linear-gradient(to right, #66ccff, #0099ff);
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+.bba-course-structure .bba-title span {
+  color: #ffff66;
+}
+
+.bba-course-structure .bba-subtitle {
+  text-align: center;
+  font-size: 1rem;
+  margin: 15px 0 25px;
+  color: #007acc;
+}
+
+/* Table styling */
+.bba-course-structure .bba-table-wrapper {
+  overflow-x: auto;
+}
+
+.bba-course-structure .bba-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Header */
+.bba-course-structure .bba-table th {
+  background-color: #e0f3ff;
+  color: #003366;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 2px solid #66b3ff;
+}
+
+.bba-course-structure .bba-table th.sem-header {
+  background-color: #66ccff;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+/* Body */
+.bba-course-structure .bba-table td {
+  padding: 10px;
+  border-bottom: 1px solid #cce7ff;
+  color: #222;
+}
+
+.bba-course-structure .bba-table tr:nth-child(even) {
+  background-color: #f2f9ff;
+}
+
+.bba-course-structure .bba-table tr:hover {
+  background-color: #d9f0ff;
+  transition: 0.3s;
+}
+
+/* Marathi Note */
+.bba-course-structure .bba-note {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #444;
+  text-align: center;
+  font-style: italic;
+}
+
+/* table 3 */
+/* Unique selector for the main body/container */
+.body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f0f8ff; /* Light Sky Blue background */
+    color: #333;
+    text-align: center;
+}
+
+/* Unique selector for the main title */
+.course-title {
+    color: #007bff; /* Bright Blue */
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+/* Unique selector for the overall table layout container */
+.table-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap; /* Allows tables to wrap on smaller screens */
+}
+
+/* Unique selector for each semester box */
+.semester-box {
+    border: 1px solid #b0e0e6; /* Powder Blue border */
+    padding: 10px;
+    background-color: #ffffff; /* White background for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 45%; /* Adjust width for side-by-side view */
+    min-width: 350px;
+}
+
+/* Unique selectors for semester titles */
+.semester-title {
+    color: #1e90ff; /* Dodger Blue */
+    font-size: 18px;
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #87ceeb; /* Sky Blue separator */
+}
+
+/* Unique selector for all tables */
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+/* Unique selector for table headers (th) in all tables */
+.course-table th {
+    background-color: #87cefa; /* Sky Blue background for headers */
+    color: #000000; /* Black text for readability */
+    padding: 12px 8px;
+    border: 1px solid #1c86ee; /* Deeper blue border */
+    text-align: left;
+    font-weight: bold;
+}
+
+/* Unique selector for table data cells (td) in all tables */
+.course-table td {
+    padding: 10px 8px;
+    border: 1px solid #add8e6; /* Light Blue border */
+    text-align: left;
+}
+
+/* Unique selector for alternating row colors */
+.course-table tbody tr:nth-child(even) {
+    background-color: #f0f8ff; /* Alice Blue for even rows */
+}
+
+/* Unique selector for hover effect on rows */
+.course-table tbody tr:hover {
+    background-color: #e0ffff; /* Light Cyan on hover */
+    cursor: default;
+}
+
+/* Specific table selectors for extra uniqueness (though using .five-table and .six-table is sufficient) */
+.five-table th {
+    /* Specific styling for Semester V headers if needed */
+}
+.six-table th {
+    /* Specific styling for Semester VI headers if needed */
+}
+
+/* table end */

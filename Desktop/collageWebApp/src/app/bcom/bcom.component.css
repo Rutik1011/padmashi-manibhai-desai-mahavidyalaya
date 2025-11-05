@@ -1,0 +1,67 @@
+
+
+/*table starts*/
+.bcom-courses {
+  margin-top: 100px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  padding: 30px;
+  background-color: #f8f9fa;
+  color: #2c3e50;
+}
+
+.bcom-courses h2 {
+  text-align: center;
+  color: #0c0c4a;
+  margin-bottom: 25px;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.bcom-courses h3 {
+  text-align: center;
+  margin-top: 40px;
+  color: #1a5276;
+  border-left: 5px solid #3498db;
+  padding-left: 10px;
+  font-size: 1.3rem;
+}
+
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.course-table th {
+  background-color: #3498db;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.course-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid #eaeaea;
+  text-align: center;
+}
+
+.course-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.course-table tr:hover {
+  background-color: #d6eaf8;
+  transition: 0.3s;
+}
+
+.course-table th[colspan] {
+  background-color: #1f618d;
+  font-size: 1.1rem;
+}
+/*table ends*/

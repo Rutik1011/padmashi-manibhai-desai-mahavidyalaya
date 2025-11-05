@@ -1,0 +1,318 @@
+
+
+/* body css */
+.about-container {
+  margin-top: 120px;
+  padding: 60px 10%;
+  background: #f8fafc;
+  color: #222;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-container h1 {
+  text-align: center;
+  color: #1b4b7c;
+  margin-bottom: 40px;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.college-image-box {
+  width: 100%;
+  height: 800px;           /* adjust as you like */
+  overflow: hidden;
+  border-radius: 20px;     /* smooth corners */
+  margin: 30px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.college-image-box img {
+  width: 100%;
+  object-fit: cover;       /* makes image fill box nicely */
+}
+
+.about-box {
+  background: #ffffff;
+  border-left: 6px solid #1b4b7c;
+  border-radius: 12px;
+  padding: 25px 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 40px;
+}
+
+.about-box h2 {
+  margin-bottom: 10px;
+  color: #1b4b7c;
+  font-size: 1.5rem;
+}
+
+.about-box p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 25px;
+}
+
+.info-box {
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  transition: 0.3s ease;
+  border-top: 4px solid #1b4b7c;
+}
+
+.info-box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.info-box h3 {
+  color: #1b4b7c;
+  margin-bottom: 10px;
+}
+
+.info-box p, .info-box li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+.info-box ul {
+  list-style-type: "✔ ";
+  padding-left: 20px;
+}
+
+/* tables */
+/* --- Base Layout Styles (Assuming you don't have these yet) --- */
+
+/* The main container for the boxes */
+.info-grid {
+    display: flex; /* Use flexbox to lay out the boxes horizontally */
+    gap: 20px; /* Space between the boxes */
+    flex-wrap: wrap; /* Allows boxes to wrap to the next line on smaller screens */
+    margin: 20px 0;
+}
+
+/* Style for each box (Mission, Vision, or the new Course tables) */
+.info-box {
+    flex: 1; /* Makes boxes take equal width */
+    min-width: 300px; /* Ensures boxes don't get too narrow */
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    background-color: #f9f9f9; /* Light background for the box */
+}
+
+/* Style for the heading inside the box */
+.info-box h3 {
+    color: #0056b3; /* A professional blue color */
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0056b3;
+}
+
+
+/* --- Table Specific Styles --- */
+
+/* Style the table inside the info-box */
+.info-box table {
+    width: 100%; /* Make the table fill the box width */
+    border-collapse: collapse; /* Removes double borders between cells */
+    margin-top: 15px;
+    font-size: 0.95em; /* Slightly smaller font for the table */
+}
+.info-box {
+    flex: 1;
+    min-width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    /* --- MODIFIED BOX-SHADOW FOR A CLEARER LIFT --- */
+    box-shadow: 2px 5px 15px rgba(0, 0, 0); 
+    /* The values here are:
+       0 (horizontal offset)
+       4px (vertical offset)
+       8px (blur radius)
+       rgba(0, 0, 0, 0.1) (color and transparency)
+    */
+    /* ----------------------------------------------- */
+    background-color: #f9f9f9; 
+}
+/* Style the table header cells */
+.info-box th {
+    background-color: #007bff; /* Primary color for headers */
+    color: white;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #007bff;
+}
+
+/* Style the table data cells */
+.info-box td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Light border for separation */
+    text-align: left;
+    vertical-align: top; /* Align content to the top (especially for M.Com subjects) */
+}
+
+/* Optional: Add alternating row color for better readability (Zebra striping) */
+.info-box table tbody tr:nth-child(even) {
+    background-color: #f0f8ff; /* Very light blue background for even rows */
+}
+
+/* Style for the special subject text in the M.Com row (if you keep the 'Advanced' list format) */
+.info-box table td ul {
+    list-style: none; /* Remove default bullet points */
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Small adjustment for the M.Com (rowspan) data cells to maintain alignment */
+.info-box table tbody tr:nth-child(2) td:nth-child(3) {
+    border-top: none; /* Remove top border of the second M.Com subject cell for a clean look */
+}
+
+/* -------------vidyalay vaishishtya box ----------------------*/
+
+/* --- Global Reset & Page Wrapper --- */
+.spacialbody {
+    font-family: 'Arial Unicode MS', 'Mangal', sans-serif; /* Support Marathi font */
+    background-color: #f7f7f7;
+    margin: 20px;
+}
+
+.main-page-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+        box-shadow: 2px 5px 15px rgba(0, 0, 0);   /*box shadow*/
+    border-radius: 8px;
+}
+
+
+/* --- 1. College Features Styling --- */
+
+.college-features-section {
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.main-feature-heading {
+    text-align: center;
+    color: #2c3e50; /* Dark Blue/Gray */
+    font-size: 2.2em;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+    border-bottom: 3px double #3498db; /* Decorative line */
+}
+
+.feature-grid-layout {
+    display: flex;
+    flex-wrap: wrap; /* Allows columns to wrap on smaller screens */
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.feature-list {
+    list-style: none; /* Removes default bullets */
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    min-width: 280px; /* Minimum width for each column */
+}
+
+/* Custom bullet styling (like the star in the image) */
+.feature-list li {
+    padding-left: 1.5em; /* Space for the custom bullet */
+    margin-bottom: 12px;
+    text-indent: -1.5em; /* Moves the text back */
+    color: #555;
+    line-height: 1.4;
+}
+
+.feature-list li::before {
+    content: "✦"; /* Star/diamond bullet point */
+    color: #3498db; /* Blue color for the bullet */
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5em;
+}
+
+/* Specific highlight for the alumni association */
+.alumni-highlight {
+    color: #e74c3c; /* Red highlight */
+    font-weight: bold;
+}
+
+
+/* --- 2. Academic Courses Styling --- */
+
+.academic-courses-section {
+    padding-top: 20px;
+}
+
+.level-heading {
+    font-size: 1.6em;
+    color: #2980b9; /* Slightly darker blue */
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.course-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.course-data-table th,
+.course-data-table td {
+    border: 1px solid #c8c8c8;
+    padding: 12px 15px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+/* Table Header Styling */
+.course-data-table thead th {
+    background-color: #34495e; /* Darker blue-gray header */
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Column Widths (Unique class for each column) */
+.col-sno { width: 10%; text-align: center; }
+.col-faculty { width: 35%; }
+.col-special-subject { width: 55%; }
+
+/* UG Table Body Styling */
+.ug-table-style tbody tr:nth-child(even) {
+    background-color: #ecf0f1; /* Light gray striping */
+}
+
+/* PG Table Specific Styling */
+.pg-table-style tbody tr:nth-child(odd) {
+    background-color: #e6f7ff; /* Very light blue for PG */
+}
+
+/* Styling for cells that use rowspan in the PG table */
+.pg-rowspan-cell {
+    text-align: center;
+    font-weight: bold;
+    background-color: #fcfcfc; /* White background for spanning cells */
+}
+
+/* Remove bottom border for the first part of the rowspan to blend visually */
+.pg-table-style tbody tr:nth-child(2) .pg-rowspan-cell {
+    border-bottom: 1px solid #fcfcfc; /* Match background color to hide line */
+}
+/* -------------vidyalay vaishishtya box end ----------------------*/
+

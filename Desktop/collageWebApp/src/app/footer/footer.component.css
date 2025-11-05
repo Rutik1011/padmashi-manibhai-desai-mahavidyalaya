@@ -1,0 +1,113 @@
+/* --- Footer Styles --- */
+.college-footer {
+    background-color: #34495e; 
+    color: #ecf0f1; 
+    padding: 40px 20px 0;
+    font-family: 'Arial Unicode MS', 'Mangal', sans-serif; 
+}
+
+.footer-grid-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1); 
+}
+
+.footer-column {
+    flex-basis: 250px; 
+    flex-grow: 1; 
+    margin-bottom: 20px;
+    margin-left: -0px;
+    line-height: 1.5;
+}
+
+.footer-logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #f39c12;
+    margin-bottom: 10px;
+}
+
+.affiliation {
+    font-size: 0.85em;
+    opacity: 0.7;
+}
+
+.footer-column h4 {
+    font-size: 1.2em;
+    color: #bdc3c7; 
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #3498db; 
+    display: inline-block; 
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column li {
+    margin-bottom: 8px;
+}
+
+.footer-column a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 0.95em;
+}
+
+.footer-column a:hover {
+    color: #f39c12; 
+}
+
+.footer-contact p {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-contact i {
+    margin-right: 10px;
+    color: #f39c12;
+    width: 20px; 
+    padding-top: 3px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    color: #ecf0f1;
+    font-size: 1.4em;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50%; 
+    margin-right: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+    background-color: #f39c12;
+    color: #34495e;
+    border-color: #f39c12;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.8em;
+    color: #95a5a6;
+}
+/* ---------------- footer end-------------------- */

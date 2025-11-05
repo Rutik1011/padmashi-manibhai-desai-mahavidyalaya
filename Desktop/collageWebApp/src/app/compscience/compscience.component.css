@@ -1,0 +1,66 @@
+
+
+/* table start */
+  .bsc-container{
+      margin:20px;
+      background:#ffffff;
+      font-family:Arial, Helvetica, sans-serif;
+      color:#17223b;
+    }.bsc-card{
+  background:#ffffff;
+  border-radius:8px;
+  box-shadow:0 6px 18px rgba(11,61,145,0.08);
+  overflow:hidden;
+  border:1px solid #c7d3ee;
+  max-width:1100px;
+  margin:0 auto 24px;
+}
+
+.bsc-header{
+  background:#0b3d91;
+  color:#ffffff;
+  padding:18px 20px;
+}
+.bsc-header h1{margin:0;font-size:20px;letter-spacing:0.2px}
+.bsc-header p{margin:4px 0 0;font-size:13px;opacity:0.9}
+
+.bsc-table-wrap{padding:18px}
+
+.bsc-table{
+  width:100%;
+  border-collapse:collapse;
+  margin-bottom:16px;
+}
+
+.bsc-table thead th{
+  background:#0b3d91;
+  color:#ffffff;
+  font-weight:700;
+  padding:10px 12px;
+  text-align:left;
+  border-right:1px solid rgba(255,255,255,0.08);
+}
+
+.bsc-section-header{
+  background:#e6f0ff;
+  color:#17223b;
+  font-weight:700;
+  padding:8px 12px;
+  border:1px solid #c7d3ee;
+}
+
+.bsc-table tbody tr{background:#ffffff}
+.bsc-table tbody tr:nth-child(even){background:#fbfdff}
+
+.bsc-table td{
+  padding:10px 12px;
+  border:1px solid #c7d3ee;
+  vertical-align:top;
+}
+
+.bsc-code-col{width:18%;font-weight:600;color:#0b3d91}
+.bsc-subject-col{width:82%}
+
+
+.bsc-note{font-size:13px;color:#334155;margin:8px 0}
+/* table end */

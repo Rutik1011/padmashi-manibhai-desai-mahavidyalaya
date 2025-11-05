@@ -1,0 +1,199 @@
+
+
+/*----------------------------- body css --------------------*/
+/* paragraph box */
+.about-container {
+  margin-top: 150px;
+  padding: 60px 10%;
+  background: #f8fafc;
+  color: #222;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-container h1 {
+  text-align: center;
+  color: #1b4b7c;
+  margin-bottom: 40px;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.about-box {
+  background: #ffffff;
+  border-left: 6px solid #1b4b7c;
+  border-radius: 12px;
+  padding: 25px 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  margin-bottom: 40px;
+}
+
+.about-box h2 {
+  margin-bottom: 10px;
+  color: #1b4b7c;
+  font-size: 1.5rem;
+}
+
+.about-box p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+/* paragraph box over */
+/* table */
+
+/* body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e9ecef; 
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+.bodyhed p,h2 {text-align: center;}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+/* --- Box Styles (The "info-box" from your previous context) --- */
+
+.info-box {
+    flex: 1;
+    min-width: 450px; /* Ensures tables have enough space */
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Stronger shadow for lift */
+}
+
+/* --- Section Title Styles --- */
+
+.section-title {
+    text-align: center;
+    color: #007bff;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+    border-bottom: 3px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.campus-name {
+    text-align: center;
+    color: #343a40;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+.course-level-title {
+    color: #28a745; /* Green for course levels */
+    font-size: 1.4em;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #28a745;
+    padding-bottom: 5px;
+}
+
+/* --- Table Styles (Applies to both tables) --- */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    font-size: 0.95em;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid #dee2e6; /* Light border for cells */
+}
+
+/* Header Styling */
+thead th {
+    background-color: #007bff; /* Blue header background */
+    color: white;
+    font-weight: bold;
+    text-align: center; /* Center header text */
+    vertical-align: middle;
+}
+
+/* Row Styling (Zebra Striping) */
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa; /* Lighter shade for even rows */
+}
+
+tbody tr:hover {
+    background-color: #e9ecef; /* Subtle hover effect */
+}
+
+/* Specific styling for the Branch Expansion Table (to match image better) */
+.branch-box table td:nth-child(2) {
+    color: #dc3545; /* Red color for institution names */
+    font-weight: 500;
+}
+.branch-box table td:nth-child(3) {
+    text-align: right;
+}
+
+/* Specific styling for the PG M.Com row */
+.course-table tr:last-child td {
+    vertical-align: top;
+}
+.course-table tr:nth-last-child(2) td:first-child,
+.course-table tr:nth-last-child(2) td:nth-child(2) {
+    border-bottom: none; /* Hide bottom border for the cell spanning two rows */
+}
+/* table over */
+
+/* ------------------------------gallary section------------- */
+.gallery{ margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      /* background: var(--bg1); */
+      background-color: white;
+    }
+      
+      
+       .gallery {
+      column-count: 2;
+      column-gap: 70px;
+      padding: 0px 60px;
+      /* padding: 20px;
+      max-width: 1200px;
+      margin: auto; */
+    }
+    .gallery h2 span{color: var(--accent-2);}
+
+    .gallery-item {
+          /* 5px right, 5px down, 15px blur, 0 spread, semi-transparent black */
+     box-shadow: 0px 0px 15px 3px rgba(0, 0, 0, 0.4); 
+      position: relative;
+      border: 2px solid rgb(193, 190, 190); 
+      padding: 8px;
+      overflow: hidden;
+      margin-bottom: 50px;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+
+    .gallery-item img {
+      width: 100%;
+      display: block;
+      border-radius: 12px;
+      transition: transform 0.4s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.08);
+    }
+
+    .gallery-item:hover .overlay {
+      opacity: 1;
+    }
+/* ------------------------------gallary section over------------- */
+
